@@ -16,3 +16,5 @@ class Product(models.Model):
                                  verbose_name='Product category')
     shop = models.ForeignKey('myshop.Shop', on_delete=models.CASCADE, related_name='products',
                              verbose_name='Shop')
+    update_counter = models.IntegerField(default=0, verbose_name='Update counter')
+
