@@ -1,6 +1,6 @@
-# Seiko_project
+# Test project
 
-Seiko test project
+test project
 
 ## Getting started
 
